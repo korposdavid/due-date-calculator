@@ -62,7 +62,7 @@ public class DueDateCalculatorTest {
     }
 
     @Test
-    public void shouldReturnAccurateDueDateWhenTurnaroundIsAWeek() throws DueDateCalculationException {
+    public void shouldReturnDueDateInNextWeekWhenTurnaroundIsAWeek() throws DueDateCalculationException {
         LocalDateTime submitDateTime = LocalDateTime.of(2021, Month.OCTOBER, 4, 10, 10);
         int turnaroundHours = 40;
 
